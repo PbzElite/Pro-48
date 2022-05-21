@@ -1,0 +1,44 @@
+.customInput{
+    width : 500px;
+    height : 35px;
+    border : 3px solid lightblue;
+    border-radius : 2%;
+    padding : 5px;
+    text-align : left;
+    font-size : 20px;
+    font-family : 'Times New Roman';
+}
+
+.customButton {
+    width : 125px;
+    height : 30px;
+    border : 3px solid lightblue;
+    border-radius : 2%;
+    padding : 5px;
+    text-align : center;
+    font-size : 15px;
+    font-family : 'Times New Roman';
+    font-weight : bold;
+    cursor : pointer;
+}
+
+.customGreeting {
+    color:aquamarine;
+    font-size : 30px;
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight : bold;
+    text-align : center;
+}
+
+.customTeamButton {
+    cursor : pointer;
+}
+
+.Disabled { 
+    pointer-events: none; 
+    cursor: not-allowed; 
+    opacity: 0.65; filter: 
+    alpha(opacity=65);
+     -webkit-box-shadow: none; 
+     box-shadow: none; 
+    }
